@@ -1,4 +1,4 @@
-# Voyance BE & E2E testing
+# Pencila Task
 
 ## Used tools and libraries:
 ```bash
