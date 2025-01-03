@@ -1,0 +1,9 @@
+{
+  "competency": "Adaptability ",
+  "body": "introduce yourself",
+  "isOptional": false,
+  "type": "video",
+  "numberOfRetakes": 2,
+  "maxSeconds": 30,
+  "order": 0
+}

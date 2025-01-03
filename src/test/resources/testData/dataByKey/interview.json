@@ -1,0 +1,11 @@
+{
+  "interviewName": "interview from api ",
+  "answerMatchingWeight": 50,
+  "personalityMatchingWeight": 30,
+  "cvMatchingWeight": 20,
+  "personalityTraitsWeight.openness": 49,
+  "personalityTraitsWeight.neuroticism": 49,
+  "personalityTraitsWeight.agreeableness": 74,
+  "personalityTraitsWeight.extraversion": 99,
+  "personalityTraitsWeight.conscientiousness": 99
+}
