@@ -1,7 +1,6 @@
 package com.pencila.tests.regressionE2eTests;
 
 import driverSettigns.DriverFactory;
-import io.github.cdimascio.dotenv.Dotenv;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
@@ -11,14 +10,12 @@ import utils.ScreenshotUtil;
 public class BaseTest {
 
     public WebDriver driver = null;
-    public Dotenv dotenv = null;
 
     @BeforeAll
     @Step("Initialize chrome browser")
     public void initializeDriver() {
         driver = new DriverFactory().getDriver();
         driver.manage().window().maximize();
-        dotenv = Dotenv.load();
     }
 
     @AfterAll
