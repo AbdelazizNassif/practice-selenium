@@ -5,7 +5,10 @@
 - Java-17, maven, Junit5.
 - major used libs > Selenium, Rest assured, allure reporting.
 ```
-
+### Video for the implemented tests:
+```bash
+- https://drive.google.com/file/d/1NBg-GPEr5_RTutzyPjSIyLjUQN7BTkP1/view?usp=sharing
+```
 ## Design patterns used:
 ```bash
 - Page object model design pattern
