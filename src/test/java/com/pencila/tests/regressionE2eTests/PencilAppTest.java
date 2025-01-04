@@ -61,10 +61,9 @@ public class PencilAppTest extends BaseTest {
         new WaitUtility().waitForInterval(5000);
         space.clickShapes();
         // Draw a vertical line in the space of height 50px.
-        space.drawLine();
-        // todo Select it and move it right by 10px.
-        // space.clickSelect();
-        // todo space.moveLine();
+        space.drawLine(50);
+        space.clickSelect();
+        space.moveLine(20);
         // Insert a text box, by selecting the text tool from the bottom toolbar.
         // Enter “This is a test” in the text box and click outside to set it.
         space.selectTextTool();
