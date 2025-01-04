@@ -34,22 +34,21 @@ public class Space {
         page.clickElement(driver, By.cssSelector("[data-name='space-toolbar-button-pointer']"));
     }
     @Step("Draw line")
-    public void drawLine () {
+    public void drawLine (int verticalLength) {
         page.clickElement(driver, By.cssSelector("[data-name='space-toolbar-button-object-line']"));
         new Actions(driver)
                 .moveToLocation(300,300)
                 .clickAndHold()
-                .moveByOffset(0,50)
+                .moveByOffset(0,verticalLength)
                 .release()
                 .perform();
     }
     @Step("move line")
-    public void moveLine () {
+    public void moveLine (int horizontalOffset) {
         new Actions(driver)
-                .moveToLocation(300, 300)
-                .moveByOffset(0, 25)
+                .moveToLocation(301, 325)
                 .clickAndHold()
-                .moveByOffset(200,0)
+                .moveByOffset(horizontalOffset,0)
                 .release()
                 .perform();
     }
