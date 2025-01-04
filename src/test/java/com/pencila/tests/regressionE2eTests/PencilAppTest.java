@@ -29,7 +29,6 @@ public class PencilAppTest extends BaseTest {
     @DisplayName("1-Validate time from login to spaces list is less than one second")
     @Description("1-Validate time from login to spaces list is less than one second")
     public void a_testTimeToLoadSpacesLessThanOneSecond() {
-
         long timeTillSpacesListLoaded = spaces.getTimeFromFinishingLoginToSpacesListing(timeAfterLogin);
         MatcherAssert.assertThat("Time to load spaces afer login should be less than 1000ms",
                 (timeTillSpacesListLoaded - timeAfterLogin),
