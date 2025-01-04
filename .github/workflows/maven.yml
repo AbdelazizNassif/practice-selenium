@@ -31,7 +31,7 @@ jobs:
       uses: docker/setup-docker-action@v4.1.0
     - name: Build and start Docker Compose services
       run: |
-        docker-compose -f docker-compose.yml up -d
+        docker compose -f docker-compose.yml up
     - name: Wait for services to start
       run: sleep 10
     - name: Setup Chrome
