@@ -1,15 +1,15 @@
 {
-  "uid" : "90d76bc3fa38bb62",
-  "name" : "2-Validate content of spaces list page",
-  "fullName" : "com.pencila.tests.regressionE2eTests.PencilAppTest.b_validateContentOfSpacesListPage",
-  "historyId" : "ad58ec4e10942a13ad2f2cb1ed49c2ba",
+  "uid" : "97505db9e2749a23",
+  "name" : "1-Validate time from login to spaces list is less than one second",
+  "fullName" : "com.pencila.tests.regressionE2eTests.PencilAppTest.a_testTimeToLoadSpacesLessThanOneSecond",
+  "historyId" : "6ee739796297f5d09ff7694a05da40c9",
   "time" : {
-    "start" : 1738791167425,
-    "stop" : 1738791168313,
-    "duration" : 888
+    "start" : 1738791854448,
+    "stop" : 1738791857266,
+    "duration" : 2818
   },
-  "description" : "2-Validate content of spaces list page",
-  "descriptionHtml" : "<p>2-Validate content of spaces list page</p>\n",
+  "description" : "1-Validate time from login to spaces list is less than one second",
+  "descriptionHtml" : "<p>1-Validate time from login to spaces list is less than one second</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -20,17 +20,17 @@
   "beforeStages" : [ {
     "name" : "initializeDriver",
     "time" : {
-      "start" : 1738791158416,
-      "stop" : 1738791160163,
-      "duration" : 1747
+      "start" : 1738791848294,
+      "stop" : 1738791849918,
+      "duration" : 1624
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Initialize chrome browser",
       "time" : {
-        "start" : 1738791158437,
-        "stop" : 1738791160162,
-        "duration" : 1725
+        "start" : 1738791848313,
+        "stop" : 1738791849916,
+        "duration" : 1603
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,17 +50,17 @@
   }, {
     "name" : "precondition_loginWithValidCredentials",
     "time" : {
-      "start" : 1738791160165,
-      "stop" : 1738791164240,
-      "duration" : 4075
+      "start" : 1738791849919,
+      "stop" : 1738791854404,
+      "duration" : 4485
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "navigate to home page",
       "time" : {
-        "start" : 1738791160175,
-        "stop" : 1738791162026,
-        "duration" : 1851
+        "start" : 1738791849927,
+        "stop" : 1738791851661,
+        "duration" : 1734
       },
       "status" : "passed",
       "steps" : [ ],
@@ -73,9 +73,9 @@
     }, {
       "name" : "click continue with email button",
       "time" : {
-        "start" : 1738791162027,
-        "stop" : 1738791162861,
-        "duration" : 834
+        "start" : 1738791851662,
+        "stop" : 1738791853177,
+        "duration" : 1515
       },
       "status" : "passed",
       "steps" : [ ],
@@ -88,9 +88,9 @@
     }, {
       "name" : "Login to app",
       "time" : {
-        "start" : 1738791162862,
-        "stop" : 1738791164240,
-        "duration" : 1378
+        "start" : 1738791853177,
+        "stop" : 1738791854404,
+        "duration" : 1227
       },
       "status" : "passed",
       "steps" : [ ],
@@ -109,87 +109,30 @@
     "hasContent" : true
   } ],
   "testStage" : {
-    "description" : "2-Validate content of spaces list page",
+    "description" : "1-Validate time from login to spaces list is less than one second",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get number of spaces",
+      "name" : "Get time from logging in to loading spaces list",
       "time" : {
-        "start" : 1738791167426,
-        "stop" : 1738791167588,
-        "duration" : 162
+        "start" : 1738791854455,
+        "stop" : 1738791857079,
+        "duration" : 2624
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
-      "parameters" : [ ],
+      "parameters" : [ {
+        "name" : "startTime",
+        "value" : "1738791854404"
+      } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "Get first space title",
-      "time" : {
-        "start" : 1738791167593,
-        "stop" : 1738791167741,
-        "duration" : 148
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "is enter space button displayed",
-      "time" : {
-        "start" : 1738791167743,
-        "stop" : 1738791167889,
-        "duration" : 146
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get side menu entries",
-      "time" : {
-        "start" : 1738791167892,
-        "stop" : 1738791168046,
-        "duration" : 154
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "is profile picture displayed",
-      "time" : {
-        "start" : 1738791168053,
-        "stop" : 1738791168209,
-        "duration" : 156
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 5,
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -197,16 +140,16 @@
   "afterStages" : [ {
     "name" : "takeScreenShot",
     "time" : {
-      "start" : 1738791168209,
-      "stop" : 1738791168312,
-      "duration" : 103
+      "start" : 1738791857095,
+      "stop" : 1738791857256,
+      "duration" : 161
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "7089333d8230a9fd",
-      "name" : "page view of 2-Validate content of spaces list page method",
-      "source" : "7089333d8230a9fd.png",
+      "uid" : "1d388b2c33965943",
+      "name" : "page view of 1-Validate time from login to spaces list is less than one second method",
+      "source" : "1d388b2c33965943.png",
       "type" : "image/png",
       "size" : 46224
     } ],
@@ -218,17 +161,17 @@
   }, {
     "name" : "quitDriver",
     "time" : {
-      "start" : 1738791182998,
-      "stop" : 1738791183141,
-      "duration" : 143
+      "start" : 1738791872247,
+      "stop" : 1738791872377,
+      "duration" : 130
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Quit browser",
       "time" : {
-        "start" : 1738791182998,
-        "stop" : 1738791183141,
-        "duration" : 143
+        "start" : 1738791872247,
+        "stop" : 1738791872377,
+        "duration" : 130
       },
       "status" : "passed",
       "steps" : [ ],
@@ -248,13 +191,13 @@
   } ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:com.pencila.tests.regressionE2eTests.PencilAppTest]/[method:b_validateContentOfSpacesListPage()]"
+    "value" : "[engine:junit-jupiter]/[class:com.pencila.tests.regressionE2eTests.PencilAppTest]/[method:a_testTimeToLoadSpacesLessThanOneSecond()]"
   }, {
     "name" : "host",
-    "value" : "fv-az1319-8"
+    "value" : "fv-az1074-602"
   }, {
     "name" : "thread",
-    "value" : "3733@fv-az1319-8.ForkJoinPool-1-worker-1(17)"
+    "value" : "3680@fv-az1074-602.ForkJoinPool-1-worker-1(17)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -269,7 +212,7 @@
     "value" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
   }, {
     "name" : "testMethod",
-    "value" : "b_validateContentOfSpacesListPage"
+    "value" : "a_testTimeToLoadSpacesLessThanOneSecond"
   }, {
     "name" : "suite",
     "value" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
@@ -287,6 +230,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "90d76bc3fa38bb62.json",
+  "source" : "97505db9e2749a23.json",
   "parameterValues" : [ ]
 }

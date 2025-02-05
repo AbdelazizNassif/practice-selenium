@@ -1,60 +1,60 @@
 [ {
-  "uid" : "864485c271b92482",
-  "name" : "4-test leaving space",
-  "time" : {
-    "start" : 1738791177970,
-    "stop" : 1738791179167,
-    "duration" : 1197
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9440fd3dc9cfb79e",
-  "name" : "3-test drawing tools in the space",
-  "time" : {
-    "start" : 1738791168319,
-    "stop" : 1738791177967,
-    "duration" : 9648
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fd9056ab71090924",
-  "name" : "5-test signing out of pencila app",
-  "time" : {
-    "start" : 1738791179170,
-    "stop" : 1738791181644,
-    "duration" : 2474
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c3bfa6b42f9c558d",
-  "name" : "6-test navigating to my pencila page",
-  "time" : {
-    "start" : 1738791181650,
-    "stop" : 1738791182996,
-    "duration" : 1346
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "561378f0591c0aad",
+  "uid" : "97505db9e2749a23",
   "name" : "1-Validate time from login to spaces list is less than one second",
   "time" : {
-    "start" : 1738791164314,
-    "stop" : 1738791167273,
-    "duration" : 2959
+    "start" : 1738791854448,
+    "stop" : 1738791857266,
+    "duration" : 2818
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "90d76bc3fa38bb62",
+  "uid" : "f572924fbe7b7fbd",
+  "name" : "4-test leaving space",
+  "time" : {
+    "start" : 1738791867008,
+    "stop" : 1738791867789,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "957301a8b243ecdb",
   "name" : "2-Validate content of spaces list page",
   "time" : {
-    "start" : 1738791167425,
-    "stop" : 1738791168313,
-    "duration" : 888
+    "start" : 1738791857392,
+    "stop" : 1738791858249,
+    "duration" : 857
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54b965588c4b36a",
+  "name" : "3-test drawing tools in the space",
+  "time" : {
+    "start" : 1738791858253,
+    "stop" : 1738791867004,
+    "duration" : 8751
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f60241b2b6d394b0",
+  "name" : "6-test navigating to my pencila page",
+  "time" : {
+    "start" : 1738791870732,
+    "stop" : 1738791872245,
+    "duration" : 1513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fc34f6702657dc7",
+  "name" : "5-test signing out of pencila app",
+  "time" : {
+    "start" : 1738791867793,
+    "stop" : 1738791870727,
+    "duration" : 2934
   },
   "status" : "passed",
   "severity" : "normal"

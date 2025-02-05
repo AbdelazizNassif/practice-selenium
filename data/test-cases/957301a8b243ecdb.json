@@ -1,15 +1,15 @@
 {
-  "uid" : "864485c271b92482",
-  "name" : "4-test leaving space",
-  "fullName" : "com.pencila.tests.regressionE2eTests.PencilAppTest.d_testLeavingSpace",
-  "historyId" : "f6211885d7a04834ecd40fa611016ca8",
+  "uid" : "957301a8b243ecdb",
+  "name" : "2-Validate content of spaces list page",
+  "fullName" : "com.pencila.tests.regressionE2eTests.PencilAppTest.b_validateContentOfSpacesListPage",
+  "historyId" : "ad58ec4e10942a13ad2f2cb1ed49c2ba",
   "time" : {
-    "start" : 1738791177970,
-    "stop" : 1738791179167,
-    "duration" : 1197
+    "start" : 1738791857392,
+    "stop" : 1738791858249,
+    "duration" : 857
   },
-  "description" : "4-test leaving space",
-  "descriptionHtml" : "<p>4-test leaving space</p>\n",
+  "description" : "2-Validate content of spaces list page",
+  "descriptionHtml" : "<p>2-Validate content of spaces list page</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -20,17 +20,17 @@
   "beforeStages" : [ {
     "name" : "initializeDriver",
     "time" : {
-      "start" : 1738791158416,
-      "stop" : 1738791160163,
-      "duration" : 1747
+      "start" : 1738791848294,
+      "stop" : 1738791849918,
+      "duration" : 1624
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Initialize chrome browser",
       "time" : {
-        "start" : 1738791158437,
-        "stop" : 1738791160162,
-        "duration" : 1725
+        "start" : 1738791848313,
+        "stop" : 1738791849916,
+        "duration" : 1603
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,17 +50,17 @@
   }, {
     "name" : "precondition_loginWithValidCredentials",
     "time" : {
-      "start" : 1738791160165,
-      "stop" : 1738791164240,
-      "duration" : 4075
+      "start" : 1738791849919,
+      "stop" : 1738791854404,
+      "duration" : 4485
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "navigate to home page",
       "time" : {
-        "start" : 1738791160175,
-        "stop" : 1738791162026,
-        "duration" : 1851
+        "start" : 1738791849927,
+        "stop" : 1738791851661,
+        "duration" : 1734
       },
       "status" : "passed",
       "steps" : [ ],
@@ -73,9 +73,9 @@
     }, {
       "name" : "click continue with email button",
       "time" : {
-        "start" : 1738791162027,
-        "stop" : 1738791162861,
-        "duration" : 834
+        "start" : 1738791851662,
+        "stop" : 1738791853177,
+        "duration" : 1515
       },
       "status" : "passed",
       "steps" : [ ],
@@ -88,9 +88,9 @@
     }, {
       "name" : "Login to app",
       "time" : {
-        "start" : 1738791162862,
-        "stop" : 1738791164240,
-        "duration" : 1378
+        "start" : 1738791853177,
+        "stop" : 1738791854404,
+        "duration" : 1227
       },
       "status" : "passed",
       "steps" : [ ],
@@ -109,14 +109,29 @@
     "hasContent" : true
   } ],
   "testStage" : {
-    "description" : "4-test leaving space",
+    "description" : "2-Validate content of spaces list page",
     "status" : "passed",
     "steps" : [ {
-      "name" : "leave space",
+      "name" : "Get number of spaces",
       "time" : {
-        "start" : 1738791177973,
-        "stop" : 1738791178415,
-        "duration" : 442
+        "start" : 1738791857393,
+        "stop" : 1738791857559,
+        "duration" : 166
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get first space title",
+      "time" : {
+        "start" : 1738791857563,
+        "stop" : 1738791857696,
+        "duration" : 133
       },
       "status" : "passed",
       "steps" : [ ],
@@ -129,9 +144,39 @@
     }, {
       "name" : "is enter space button displayed",
       "time" : {
-        "start" : 1738791178415,
-        "stop" : 1738791179059,
-        "duration" : 644
+        "start" : 1738791857698,
+        "stop" : 1738791857844,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get side menu entries",
+      "time" : {
+        "start" : 1738791857848,
+        "stop" : 1738791858032,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "is profile picture displayed",
+      "time" : {
+        "start" : 1738791858036,
+        "stop" : 1738791858139,
+        "duration" : 103
       },
       "status" : "passed",
       "steps" : [ ],
@@ -144,7 +189,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
+    "stepsCount" : 5,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -152,18 +197,18 @@
   "afterStages" : [ {
     "name" : "takeScreenShot",
     "time" : {
-      "start" : 1738791179059,
-      "stop" : 1738791179167,
+      "start" : 1738791858140,
+      "stop" : 1738791858248,
       "duration" : 108
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "e94d377c6f2ccc0",
-      "name" : "page view of 4-test leaving space method",
-      "source" : "e94d377c6f2ccc0.png",
+      "uid" : "7164e1e12041402c",
+      "name" : "page view of 2-Validate content of spaces list page method",
+      "source" : "7164e1e12041402c.png",
       "type" : "image/png",
-      "size" : 46573
+      "size" : 46224
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -173,17 +218,17 @@
   }, {
     "name" : "quitDriver",
     "time" : {
-      "start" : 1738791182998,
-      "stop" : 1738791183141,
-      "duration" : 143
+      "start" : 1738791872247,
+      "stop" : 1738791872377,
+      "duration" : 130
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Quit browser",
       "time" : {
-        "start" : 1738791182998,
-        "stop" : 1738791183141,
-        "duration" : 143
+        "start" : 1738791872247,
+        "stop" : 1738791872377,
+        "duration" : 130
       },
       "status" : "passed",
       "steps" : [ ],
@@ -203,13 +248,13 @@
   } ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:com.pencila.tests.regressionE2eTests.PencilAppTest]/[method:d_testLeavingSpace()]"
+    "value" : "[engine:junit-jupiter]/[class:com.pencila.tests.regressionE2eTests.PencilAppTest]/[method:b_validateContentOfSpacesListPage()]"
   }, {
     "name" : "host",
-    "value" : "fv-az1319-8"
+    "value" : "fv-az1074-602"
   }, {
     "name" : "thread",
-    "value" : "3733@fv-az1319-8.ForkJoinPool-1-worker-1(17)"
+    "value" : "3680@fv-az1074-602.ForkJoinPool-1-worker-1(17)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -224,7 +269,7 @@
     "value" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
   }, {
     "name" : "testMethod",
-    "value" : "d_testLeavingSpace"
+    "value" : "b_validateContentOfSpacesListPage"
   }, {
     "name" : "suite",
     "value" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
@@ -242,6 +287,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "864485c271b92482.json",
+  "source" : "957301a8b243ecdb.json",
   "parameterValues" : [ ]
 }

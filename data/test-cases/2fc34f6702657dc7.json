@@ -1,15 +1,15 @@
 {
-  "uid" : "561378f0591c0aad",
-  "name" : "1-Validate time from login to spaces list is less than one second",
-  "fullName" : "com.pencila.tests.regressionE2eTests.PencilAppTest.a_testTimeToLoadSpacesLessThanOneSecond",
-  "historyId" : "6ee739796297f5d09ff7694a05da40c9",
+  "uid" : "2fc34f6702657dc7",
+  "name" : "5-test signing out of pencila app",
+  "fullName" : "com.pencila.tests.regressionE2eTests.PencilAppTest.e_testSigningOutOfApp",
+  "historyId" : "4ef9ed8456286d393fe77aa699c7d2a8",
   "time" : {
-    "start" : 1738791164314,
-    "stop" : 1738791167273,
-    "duration" : 2959
+    "start" : 1738791867793,
+    "stop" : 1738791870727,
+    "duration" : 2934
   },
-  "description" : "1-Validate time from login to spaces list is less than one second",
-  "descriptionHtml" : "<p>1-Validate time from login to spaces list is less than one second</p>\n",
+  "description" : "5-test signing out of pencila app",
+  "descriptionHtml" : "<p>5-test signing out of pencila app</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -20,17 +20,17 @@
   "beforeStages" : [ {
     "name" : "initializeDriver",
     "time" : {
-      "start" : 1738791158416,
-      "stop" : 1738791160163,
-      "duration" : 1747
+      "start" : 1738791848294,
+      "stop" : 1738791849918,
+      "duration" : 1624
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Initialize chrome browser",
       "time" : {
-        "start" : 1738791158437,
-        "stop" : 1738791160162,
-        "duration" : 1725
+        "start" : 1738791848313,
+        "stop" : 1738791849916,
+        "duration" : 1603
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,17 +50,17 @@
   }, {
     "name" : "precondition_loginWithValidCredentials",
     "time" : {
-      "start" : 1738791160165,
-      "stop" : 1738791164240,
-      "duration" : 4075
+      "start" : 1738791849919,
+      "stop" : 1738791854404,
+      "duration" : 4485
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "navigate to home page",
       "time" : {
-        "start" : 1738791160175,
-        "stop" : 1738791162026,
-        "duration" : 1851
+        "start" : 1738791849927,
+        "stop" : 1738791851661,
+        "duration" : 1734
       },
       "status" : "passed",
       "steps" : [ ],
@@ -73,9 +73,9 @@
     }, {
       "name" : "click continue with email button",
       "time" : {
-        "start" : 1738791162027,
-        "stop" : 1738791162861,
-        "duration" : 834
+        "start" : 1738791851662,
+        "stop" : 1738791853177,
+        "duration" : 1515
       },
       "status" : "passed",
       "steps" : [ ],
@@ -88,9 +88,9 @@
     }, {
       "name" : "Login to app",
       "time" : {
-        "start" : 1738791162862,
-        "stop" : 1738791164240,
-        "duration" : 1378
+        "start" : 1738791853177,
+        "stop" : 1738791854404,
+        "duration" : 1227
       },
       "status" : "passed",
       "steps" : [ ],
@@ -109,30 +109,72 @@
     "hasContent" : true
   } ],
   "testStage" : {
-    "description" : "1-Validate time from login to spaces list is less than one second",
+    "description" : "5-test signing out of pencila app",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get time from logging in to loading spaces list",
+      "name" : "sign out from app",
       "time" : {
-        "start" : 1738791164334,
-        "stop" : 1738791167061,
-        "duration" : 2727
+        "start" : 1738791867793,
+        "stop" : 1738791868366,
+        "duration" : 573
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "click logout",
+        "time" : {
+          "start" : 1738791868159,
+          "stop" : 1738791868366,
+          "duration" : 207
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "is continue with email button displayed",
+      "time" : {
+        "start" : 1738791868366,
+        "stop" : 1738791870611,
+        "duration" : 2245
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "startTime",
-        "value" : "1738791164240"
-      } ],
+      "parameters" : [ ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true
+      "hasContent" : false
+    }, {
+      "name" : "get current url",
+      "time" : {
+        "start" : 1738791870612,
+        "stop" : 1738791870620,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
+    "stepsCount" : 4,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -140,18 +182,18 @@
   "afterStages" : [ {
     "name" : "takeScreenShot",
     "time" : {
-      "start" : 1738791167078,
-      "stop" : 1738791167264,
-      "duration" : 186
+      "start" : 1738791870621,
+      "stop" : 1738791870726,
+      "duration" : 105
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a2110f0129b73fcd",
-      "name" : "page view of 1-Validate time from login to spaces list is less than one second method",
-      "source" : "a2110f0129b73fcd.png",
+      "uid" : "90a5b6422ceb61e",
+      "name" : "page view of 5-test signing out of pencila app method",
+      "source" : "90a5b6422ceb61e.png",
       "type" : "image/png",
-      "size" : 46224
+      "size" : 38465
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -161,17 +203,17 @@
   }, {
     "name" : "quitDriver",
     "time" : {
-      "start" : 1738791182998,
-      "stop" : 1738791183141,
-      "duration" : 143
+      "start" : 1738791872247,
+      "stop" : 1738791872377,
+      "duration" : 130
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Quit browser",
       "time" : {
-        "start" : 1738791182998,
-        "stop" : 1738791183141,
-        "duration" : 143
+        "start" : 1738791872247,
+        "stop" : 1738791872377,
+        "duration" : 130
       },
       "status" : "passed",
       "steps" : [ ],
@@ -191,13 +233,13 @@
   } ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:com.pencila.tests.regressionE2eTests.PencilAppTest]/[method:a_testTimeToLoadSpacesLessThanOneSecond()]"
+    "value" : "[engine:junit-jupiter]/[class:com.pencila.tests.regressionE2eTests.PencilAppTest]/[method:e_testSigningOutOfApp()]"
   }, {
     "name" : "host",
-    "value" : "fv-az1319-8"
+    "value" : "fv-az1074-602"
   }, {
     "name" : "thread",
-    "value" : "3733@fv-az1319-8.ForkJoinPool-1-worker-1(17)"
+    "value" : "3680@fv-az1074-602.ForkJoinPool-1-worker-1(17)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -212,7 +254,7 @@
     "value" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
   }, {
     "name" : "testMethod",
-    "value" : "a_testTimeToLoadSpacesLessThanOneSecond"
+    "value" : "e_testSigningOutOfApp"
   }, {
     "name" : "suite",
     "value" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
@@ -230,6 +272,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "561378f0591c0aad.json",
+  "source" : "2fc34f6702657dc7.json",
   "parameterValues" : [ ]
 }

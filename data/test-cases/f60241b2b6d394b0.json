@@ -1,12 +1,12 @@
 {
-  "uid" : "c3bfa6b42f9c558d",
+  "uid" : "f60241b2b6d394b0",
   "name" : "6-test navigating to my pencila page",
   "fullName" : "com.pencila.tests.regressionE2eTests.PencilAppTest.f_testNavigatingToMyPencilaPage",
   "historyId" : "42e53fd72909e4f2fdc0e2f4a6601ea5",
   "time" : {
-    "start" : 1738791181650,
-    "stop" : 1738791182996,
-    "duration" : 1346
+    "start" : 1738791870732,
+    "stop" : 1738791872245,
+    "duration" : 1513
   },
   "description" : "6-test navigating to my pencila page",
   "descriptionHtml" : "<p>6-test navigating to my pencila page</p>\n",
@@ -20,17 +20,17 @@
   "beforeStages" : [ {
     "name" : "initializeDriver",
     "time" : {
-      "start" : 1738791158416,
-      "stop" : 1738791160163,
-      "duration" : 1747
+      "start" : 1738791848294,
+      "stop" : 1738791849918,
+      "duration" : 1624
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Initialize chrome browser",
       "time" : {
-        "start" : 1738791158437,
-        "stop" : 1738791160162,
-        "duration" : 1725
+        "start" : 1738791848313,
+        "stop" : 1738791849916,
+        "duration" : 1603
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,17 +50,17 @@
   }, {
     "name" : "precondition_loginWithValidCredentials",
     "time" : {
-      "start" : 1738791160165,
-      "stop" : 1738791164240,
-      "duration" : 4075
+      "start" : 1738791849919,
+      "stop" : 1738791854404,
+      "duration" : 4485
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "navigate to home page",
       "time" : {
-        "start" : 1738791160175,
-        "stop" : 1738791162026,
-        "duration" : 1851
+        "start" : 1738791849927,
+        "stop" : 1738791851661,
+        "duration" : 1734
       },
       "status" : "passed",
       "steps" : [ ],
@@ -73,9 +73,9 @@
     }, {
       "name" : "click continue with email button",
       "time" : {
-        "start" : 1738791162027,
-        "stop" : 1738791162861,
-        "duration" : 834
+        "start" : 1738791851662,
+        "stop" : 1738791853177,
+        "duration" : 1515
       },
       "status" : "passed",
       "steps" : [ ],
@@ -88,9 +88,9 @@
     }, {
       "name" : "Login to app",
       "time" : {
-        "start" : 1738791162862,
-        "stop" : 1738791164240,
-        "duration" : 1378
+        "start" : 1738791853177,
+        "stop" : 1738791854404,
+        "duration" : 1227
       },
       "status" : "passed",
       "steps" : [ ],
@@ -114,9 +114,9 @@
     "steps" : [ {
       "name" : "is continue with email button displayed",
       "time" : {
-        "start" : 1738791182228,
-        "stop" : 1738791182879,
-        "duration" : 651
+        "start" : 1738791871420,
+        "stop" : 1738791872123,
+        "duration" : 703
       },
       "status" : "passed",
       "steps" : [ ],
@@ -129,9 +129,9 @@
     }, {
       "name" : "get current url",
       "time" : {
-        "start" : 1738791182879,
-        "stop" : 1738791182889,
-        "duration" : 10
+        "start" : 1738791872123,
+        "stop" : 1738791872131,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -152,16 +152,16 @@
   "afterStages" : [ {
     "name" : "takeScreenShot",
     "time" : {
-      "start" : 1738791182889,
-      "stop" : 1738791182995,
-      "duration" : 106
+      "start" : 1738791872131,
+      "stop" : 1738791872245,
+      "duration" : 114
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "dc7e10fda9075921",
+      "uid" : "13f3da2dd0bcef0",
       "name" : "page view of 6-test navigating to my pencila page method",
-      "source" : "dc7e10fda9075921.png",
+      "source" : "13f3da2dd0bcef0.png",
       "type" : "image/png",
       "size" : 38465
     } ],
@@ -173,17 +173,17 @@
   }, {
     "name" : "quitDriver",
     "time" : {
-      "start" : 1738791182998,
-      "stop" : 1738791183141,
-      "duration" : 143
+      "start" : 1738791872247,
+      "stop" : 1738791872377,
+      "duration" : 130
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Quit browser",
       "time" : {
-        "start" : 1738791182998,
-        "stop" : 1738791183141,
-        "duration" : 143
+        "start" : 1738791872247,
+        "stop" : 1738791872377,
+        "duration" : 130
       },
       "status" : "passed",
       "steps" : [ ],
@@ -206,10 +206,10 @@
     "value" : "[engine:junit-jupiter]/[class:com.pencila.tests.regressionE2eTests.PencilAppTest]/[method:f_testNavigatingToMyPencilaPage()]"
   }, {
     "name" : "host",
-    "value" : "fv-az1319-8"
+    "value" : "fv-az1074-602"
   }, {
     "name" : "thread",
-    "value" : "3733@fv-az1319-8.ForkJoinPool-1-worker-1(17)"
+    "value" : "3680@fv-az1074-602.ForkJoinPool-1-worker-1(17)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -242,6 +242,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c3bfa6b42f9c558d.json",
+  "source" : "f60241b2b6d394b0.json",
   "parameterValues" : [ ]
 }
