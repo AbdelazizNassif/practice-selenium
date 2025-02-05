@@ -36,6 +36,16 @@ jobs:
 
       - name: Run Docker Compose
         run: docker-compose up -d
+        
+      - name: Install Allure Commandline
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget unzip
+          wget https://github.com/allure-framework/allure2/releases/download/2.17.2/allure-2.17.2.tgz
+          tar -xvzf allure-2.17.2.tgz
+          sudo mv allure-2.17.2 /opt/allure
+          sudo ln -s /opt/allure/bin/allure /usr/local/bin/allure
+          allure --version  # Verify that allure is installed
 
       - name: Run Maven tests
         run: mvn clean -DargLine="-Xmx6g" -D"junit.jupiter.execution.parallel.enabled=true" -D"junit.jupiter.execution.parallel.config.strategy=dynamic" -Dtest="com/pencila/tests/regressionE2eTests/*/**" test
