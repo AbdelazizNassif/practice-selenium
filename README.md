@@ -2,7 +2,7 @@
 
 ## Used tools and libraries:
 ```bash
-- Java-17, maven, Junit5.
+- Java-17, maven, Junit5
 - major used libs > Selenium, Rest assured, allure reporting.
 ```
 ### Video for the implemented tests:
