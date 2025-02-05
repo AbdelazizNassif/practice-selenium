@@ -1,0 +1,111 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.pencila.tests.regressionE2eTests.PencilAppTest",
+    "children" : [ {
+      "name" : "a_testTimeToLoadSpacesLessThanOneSecond",
+      "uid" : "7420d55cdd820454",
+      "parentUid" : "4c907951e15f9f882e3bfbc35ce4771a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738790309593,
+        "stop" : 1738790312460,
+        "duration" : 2867
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "b_validateContentOfSpacesListPage",
+      "uid" : "a9089ff8c095b668",
+      "parentUid" : "4c907951e15f9f882e3bfbc35ce4771a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738790312556,
+        "stop" : 1738790313294,
+        "duration" : 738
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "c_testDrawingInSpace",
+      "uid" : "3aedaa6f5d303c03",
+      "parentUid" : "4c907951e15f9f882e3bfbc35ce4771a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738790313299,
+        "stop" : 1738790321816,
+        "duration" : 8517
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "d_testLeavingSpace",
+      "uid" : "953dc1ff0031dce4",
+      "parentUid" : "4c907951e15f9f882e3bfbc35ce4771a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738790321820,
+        "stop" : 1738790322620,
+        "duration" : 800
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "e_testSigningOutOfApp",
+      "uid" : "e4b0d18f2bbf03fd",
+      "parentUid" : "4c907951e15f9f882e3bfbc35ce4771a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738790322623,
+        "stop" : 1738790324888,
+        "duration" : 2265
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "f_testNavigatingToMyPencilaPage",
+      "uid" : "7af141d01ae6ecbe",
+      "parentUid" : "4c907951e15f9f882e3bfbc35ce4771a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738790324893,
+        "stop" : 1738790326124,
+        "duration" : 1231
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
+  } ]
+}

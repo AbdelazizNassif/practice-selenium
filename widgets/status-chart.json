@@ -1,0 +1,61 @@
+[ {
+  "uid" : "7af141d01ae6ecbe",
+  "name" : "6-test navigating to my pencila page",
+  "time" : {
+    "start" : 1738790324893,
+    "stop" : 1738790326124,
+    "duration" : 1231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4b0d18f2bbf03fd",
+  "name" : "5-test signing out of pencila app",
+  "time" : {
+    "start" : 1738790322623,
+    "stop" : 1738790324888,
+    "duration" : 2265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9089ff8c095b668",
+  "name" : "2-Validate content of spaces list page",
+  "time" : {
+    "start" : 1738790312556,
+    "stop" : 1738790313294,
+    "duration" : 738
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3aedaa6f5d303c03",
+  "name" : "3-test drawing tools in the space",
+  "time" : {
+    "start" : 1738790313299,
+    "stop" : 1738790321816,
+    "duration" : 8517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "953dc1ff0031dce4",
+  "name" : "4-test leaving space",
+  "time" : {
+    "start" : 1738790321820,
+    "stop" : 1738790322620,
+    "duration" : 800
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7420d55cdd820454",
+  "name" : "1-Validate time from login to spaces list is less than one second",
+  "time" : {
+    "start" : 1738790309593,
+    "stop" : 1738790312460,
+    "duration" : 2867
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,111 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "com.pencila.tests.regressionE2eTests.PencilAppTest",
+    "children" : [ {
+      "name" : "1-Validate time from login to spaces list is less than one second",
+      "uid" : "7420d55cdd820454",
+      "parentUid" : "f479d6da6f90bff47a4b67dcd04588e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738790309593,
+        "stop" : 1738790312460,
+        "duration" : 2867
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "2-Validate content of spaces list page",
+      "uid" : "a9089ff8c095b668",
+      "parentUid" : "f479d6da6f90bff47a4b67dcd04588e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738790312556,
+        "stop" : 1738790313294,
+        "duration" : 738
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "3-test drawing tools in the space",
+      "uid" : "3aedaa6f5d303c03",
+      "parentUid" : "f479d6da6f90bff47a4b67dcd04588e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738790313299,
+        "stop" : 1738790321816,
+        "duration" : 8517
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "4-test leaving space",
+      "uid" : "953dc1ff0031dce4",
+      "parentUid" : "f479d6da6f90bff47a4b67dcd04588e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738790321820,
+        "stop" : 1738790322620,
+        "duration" : 800
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "5-test signing out of pencila app",
+      "uid" : "e4b0d18f2bbf03fd",
+      "parentUid" : "f479d6da6f90bff47a4b67dcd04588e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738790322623,
+        "stop" : 1738790324888,
+        "duration" : 2265
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "6-test navigating to my pencila page",
+      "uid" : "7af141d01ae6ecbe",
+      "parentUid" : "f479d6da6f90bff47a4b67dcd04588e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738790324893,
+        "stop" : 1738790326124,
+        "duration" : 1231
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f479d6da6f90bff47a4b67dcd04588e1"
+  } ]
+}
