@@ -11,7 +11,10 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write  # This grants write access to repository contents
+      pull-requests: write  # This grants write access for pull requests (if required)
+      
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
