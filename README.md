@@ -1,4 +1,4 @@
-# Pencila Task
+# Pencila app
 
 ## Used tools and libraries:
 ```bash
