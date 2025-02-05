@@ -1,0 +1,277 @@
+{
+  "uid" : "f848a153f05ae8ef",
+  "name" : "5-test signing out of pencila app",
+  "fullName" : "com.pencila.tests.regressionE2eTests.PencilAppTest.e_testSigningOutOfApp",
+  "historyId" : "4ef9ed8456286d393fe77aa699c7d2a8",
+  "time" : {
+    "start" : 1738793201105,
+    "stop" : 1738793204080,
+    "duration" : 2975
+  },
+  "description" : "5-test signing out of pencila app",
+  "descriptionHtml" : "<p>5-test signing out of pencila app</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "initializeDriver",
+    "time" : {
+      "start" : 1738793182204,
+      "stop" : 1738793183857,
+      "duration" : 1653
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Initialize chrome browser",
+      "time" : {
+        "start" : 1738793182220,
+        "stop" : 1738793183854,
+        "duration" : 1634
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "precondition_loginWithValidCredentials",
+    "time" : {
+      "start" : 1738793183858,
+      "stop" : 1738793188097,
+      "duration" : 4239
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "navigate to home page",
+      "time" : {
+        "start" : 1738793183864,
+        "stop" : 1738793185579,
+        "duration" : 1715
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click continue with email button",
+      "time" : {
+        "start" : 1738793185579,
+        "stop" : 1738793186908,
+        "duration" : 1329
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Login to app",
+      "time" : {
+        "start" : 1738793186908,
+        "stop" : 1738793188097,
+        "duration" : 1189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "5-test signing out of pencila app",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "sign out from app",
+      "time" : {
+        "start" : 1738793201106,
+        "stop" : 1738793201662,
+        "duration" : 556
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "click logout",
+        "time" : {
+          "start" : 1738793201465,
+          "stop" : 1738793201662,
+          "duration" : 197
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "is continue with email button displayed",
+      "time" : {
+        "start" : 1738793201662,
+        "stop" : 1738793203949,
+        "duration" : 2287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get current url",
+      "time" : {
+        "start" : 1738793203949,
+        "stop" : 1738793203958,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "takeScreenShot",
+    "time" : {
+      "start" : 1738793203959,
+      "stop" : 1738793204079,
+      "duration" : 120
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e43d9e52dbbdfeba",
+      "name" : "page view of 5-test signing out of pencila app method",
+      "source" : "e43d9e52dbbdfeba.png",
+      "type" : "image/png",
+      "size" : 38465
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1738793205628,
+      "stop" : 1738793205771,
+      "duration" : 143
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Quit browser",
+      "time" : {
+        "start" : 1738793205629,
+        "stop" : 1738793205771,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:com.pencila.tests.regressionE2eTests.PencilAppTest]/[method:e_testSigningOutOfApp()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1308-518"
+  }, {
+    "name" : "thread",
+    "value" : "3694@fv-az1308-518.ForkJoinPool-1-worker-1(17)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "e_testSigningOutOfApp"
+  }, {
+    "name" : "suite",
+    "value" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f848a153f05ae8ef.json",
+  "parameterValues" : [ ]
+}

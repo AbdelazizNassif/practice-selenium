@@ -1,1 +1,15 @@
-{"total":1,"items":[{"uid":"f479d6da6f90bff47a4b67dcd04588e1","name":"com.pencila.tests.regressionE2eTests.PencilAppTest","statistic":{"failed":0,"broken":0,"skipped":0,"passed":6,"unknown":0,"total":6}}]}
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "f479d6da6f90bff47a4b67dcd04588e1",
+    "name" : "com.pencila.tests.regressionE2eTests.PencilAppTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}
