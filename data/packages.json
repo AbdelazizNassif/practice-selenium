@@ -5,13 +5,13 @@
     "name" : "com.pencila.tests.regressionE2eTests.PencilAppTest",
     "children" : [ {
       "name" : "a_testTimeToLoadSpacesLessThanOneSecond",
-      "uid" : "7420d55cdd820454",
+      "uid" : "561378f0591c0aad",
       "parentUid" : "4c907951e15f9f882e3bfbc35ce4771a",
       "status" : "passed",
       "time" : {
-        "start" : 1738790309593,
-        "stop" : 1738790312460,
-        "duration" : 2867
+        "start" : 1738791164314,
+        "stop" : 1738791167273,
+        "duration" : 2959
       },
       "flaky" : false,
       "newFailed" : false,
@@ -22,13 +22,13 @@
       "parameters" : [ ]
     }, {
       "name" : "b_validateContentOfSpacesListPage",
-      "uid" : "a9089ff8c095b668",
+      "uid" : "90d76bc3fa38bb62",
       "parentUid" : "4c907951e15f9f882e3bfbc35ce4771a",
       "status" : "passed",
       "time" : {
-        "start" : 1738790312556,
-        "stop" : 1738790313294,
-        "duration" : 738
+        "start" : 1738791167425,
+        "stop" : 1738791168313,
+        "duration" : 888
       },
       "flaky" : false,
       "newFailed" : false,
@@ -39,13 +39,13 @@
       "parameters" : [ ]
     }, {
       "name" : "c_testDrawingInSpace",
-      "uid" : "3aedaa6f5d303c03",
+      "uid" : "9440fd3dc9cfb79e",
       "parentUid" : "4c907951e15f9f882e3bfbc35ce4771a",
       "status" : "passed",
       "time" : {
-        "start" : 1738790313299,
-        "stop" : 1738790321816,
-        "duration" : 8517
+        "start" : 1738791168319,
+        "stop" : 1738791177967,
+        "duration" : 9648
       },
       "flaky" : false,
       "newFailed" : false,
@@ -56,13 +56,13 @@
       "parameters" : [ ]
     }, {
       "name" : "d_testLeavingSpace",
-      "uid" : "953dc1ff0031dce4",
+      "uid" : "864485c271b92482",
       "parentUid" : "4c907951e15f9f882e3bfbc35ce4771a",
       "status" : "passed",
       "time" : {
-        "start" : 1738790321820,
-        "stop" : 1738790322620,
-        "duration" : 800
+        "start" : 1738791177970,
+        "stop" : 1738791179167,
+        "duration" : 1197
       },
       "flaky" : false,
       "newFailed" : false,
@@ -73,13 +73,13 @@
       "parameters" : [ ]
     }, {
       "name" : "e_testSigningOutOfApp",
-      "uid" : "e4b0d18f2bbf03fd",
+      "uid" : "fd9056ab71090924",
       "parentUid" : "4c907951e15f9f882e3bfbc35ce4771a",
       "status" : "passed",
       "time" : {
-        "start" : 1738790322623,
-        "stop" : 1738790324888,
-        "duration" : 2265
+        "start" : 1738791179170,
+        "stop" : 1738791181644,
+        "duration" : 2474
       },
       "flaky" : false,
       "newFailed" : false,
@@ -90,13 +90,13 @@
       "parameters" : [ ]
     }, {
       "name" : "f_testNavigatingToMyPencilaPage",
-      "uid" : "7af141d01ae6ecbe",
+      "uid" : "c3bfa6b42f9c558d",
       "parentUid" : "4c907951e15f9f882e3bfbc35ce4771a",
       "status" : "passed",
       "time" : {
-        "start" : 1738790324893,
-        "stop" : 1738790326124,
-        "duration" : 1231
+        "start" : 1738791181650,
+        "stop" : 1738791182996,
+        "duration" : 1346
       },
       "flaky" : false,
       "newFailed" : false,

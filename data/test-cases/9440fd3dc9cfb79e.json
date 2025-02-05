@@ -1,15 +1,15 @@
 {
-  "uid" : "e4b0d18f2bbf03fd",
-  "name" : "5-test signing out of pencila app",
-  "fullName" : "com.pencila.tests.regressionE2eTests.PencilAppTest.e_testSigningOutOfApp",
-  "historyId" : "4ef9ed8456286d393fe77aa699c7d2a8",
+  "uid" : "9440fd3dc9cfb79e",
+  "name" : "3-test drawing tools in the space",
+  "fullName" : "com.pencila.tests.regressionE2eTests.PencilAppTest.c_testDrawingInSpace",
+  "historyId" : "8014e1f78524b94592288deba5946d23",
   "time" : {
-    "start" : 1738790322623,
-    "stop" : 1738790324888,
-    "duration" : 2265
+    "start" : 1738791168319,
+    "stop" : 1738791177967,
+    "duration" : 9648
   },
-  "description" : "5-test signing out of pencila app",
-  "descriptionHtml" : "<p>5-test signing out of pencila app</p>\n",
+  "description" : "3-test drawing tools in the space",
+  "descriptionHtml" : "<p>3-test drawing tools in the space</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -20,17 +20,17 @@
   "beforeStages" : [ {
     "name" : "initializeDriver",
     "time" : {
-      "start" : 1738790303284,
-      "stop" : 1738790305046,
-      "duration" : 1762
+      "start" : 1738791158416,
+      "stop" : 1738791160163,
+      "duration" : 1747
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Initialize chrome browser",
       "time" : {
-        "start" : 1738790303299,
-        "stop" : 1738790305045,
-        "duration" : 1746
+        "start" : 1738791158437,
+        "stop" : 1738791160162,
+        "duration" : 1725
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,17 +50,17 @@
   }, {
     "name" : "precondition_loginWithValidCredentials",
     "time" : {
-      "start" : 1738790305047,
-      "stop" : 1738790309541,
-      "duration" : 4494
+      "start" : 1738791160165,
+      "stop" : 1738791164240,
+      "duration" : 4075
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "navigate to home page",
       "time" : {
-        "start" : 1738790305054,
-        "stop" : 1738790307290,
-        "duration" : 2236
+        "start" : 1738791160175,
+        "stop" : 1738791162026,
+        "duration" : 1851
       },
       "status" : "passed",
       "steps" : [ ],
@@ -73,9 +73,9 @@
     }, {
       "name" : "click continue with email button",
       "time" : {
-        "start" : 1738790307290,
-        "stop" : 1738790308205,
-        "duration" : 915
+        "start" : 1738791162027,
+        "stop" : 1738791162861,
+        "duration" : 834
       },
       "status" : "passed",
       "steps" : [ ],
@@ -88,9 +88,9 @@
     }, {
       "name" : "Login to app",
       "time" : {
-        "start" : 1738790308206,
-        "stop" : 1738790309541,
-        "duration" : 1335
+        "start" : 1738791162862,
+        "stop" : 1738791164240,
+        "duration" : 1378
       },
       "status" : "passed",
       "steps" : [ ],
@@ -109,44 +109,62 @@
     "hasContent" : true
   } ],
   "testStage" : {
-    "description" : "5-test signing out of pencila app",
+    "description" : "3-test drawing tools in the space",
     "status" : "passed",
     "steps" : [ {
-      "name" : "sign out from app",
+      "name" : "click enter space button",
       "time" : {
-        "start" : 1738790322624,
-        "stop" : 1738790323206,
-        "duration" : 582
+        "start" : 1738791168319,
+        "stop" : 1738791169299,
+        "duration" : 980
       },
       "status" : "passed",
-      "steps" : [ {
-        "name" : "click logout",
-        "time" : {
-          "start" : 1738790323004,
-          "stop" : 1738790323206,
-          "duration" : 202
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      } ],
+      "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 1,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click shapes tool",
+      "time" : {
+        "start" : 1738791174301,
+        "stop" : 1738791174523,
+        "duration" : 222
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Draw line",
+      "time" : {
+        "start" : 1738791174524,
+        "stop" : 1738791176254,
+        "duration" : 1730
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "verticalLength",
+        "value" : "50"
+      } ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "is continue with email button displayed",
+      "name" : "Click select tool",
       "time" : {
-        "start" : 1738790323206,
-        "stop" : 1738790324791,
-        "duration" : 1585
+        "start" : 1738791176254,
+        "stop" : 1738791176424,
+        "duration" : 170
       },
       "status" : "passed",
       "steps" : [ ],
@@ -157,11 +175,29 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "get current url",
+      "name" : "move line",
       "time" : {
-        "start" : 1738790324791,
-        "stop" : 1738790324799,
-        "duration" : 8
+        "start" : 1738791176425,
+        "stop" : 1738791176956,
+        "duration" : 531
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "horizontalOffset",
+        "value" : "20"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "select text tool",
+      "time" : {
+        "start" : 1738791176957,
+        "stop" : 1738791177145,
+        "duration" : 188
       },
       "status" : "passed",
       "steps" : [ ],
@@ -171,10 +207,28 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : false
+    }, {
+      "name" : "use text tool",
+      "time" : {
+        "start" : 1738791177145,
+        "stop" : 1738791177848,
+        "duration" : 703
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "This is test"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 4,
+    "stepsCount" : 7,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -182,18 +236,18 @@
   "afterStages" : [ {
     "name" : "takeScreenShot",
     "time" : {
-      "start" : 1738790324800,
-      "stop" : 1738790324888,
-      "duration" : 88
+      "start" : 1738791177848,
+      "stop" : 1738791177967,
+      "duration" : 119
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "c61d649feff61381",
-      "name" : "page view of 5-test signing out of pencila app method",
-      "source" : "c61d649feff61381.png",
+      "uid" : "616ab04f294d6fd1",
+      "name" : "page view of 3-test drawing tools in the space method",
+      "source" : "616ab04f294d6fd1.png",
       "type" : "image/png",
-      "size" : 38465
+      "size" : 53144
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -203,17 +257,17 @@
   }, {
     "name" : "quitDriver",
     "time" : {
-      "start" : 1738790326126,
-      "stop" : 1738790326245,
-      "duration" : 119
+      "start" : 1738791182998,
+      "stop" : 1738791183141,
+      "duration" : 143
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Quit browser",
       "time" : {
-        "start" : 1738790326126,
-        "stop" : 1738790326245,
-        "duration" : 119
+        "start" : 1738791182998,
+        "stop" : 1738791183141,
+        "duration" : 143
       },
       "status" : "passed",
       "steps" : [ ],
@@ -233,13 +287,13 @@
   } ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:com.pencila.tests.regressionE2eTests.PencilAppTest]/[method:e_testSigningOutOfApp()]"
+    "value" : "[engine:junit-jupiter]/[class:com.pencila.tests.regressionE2eTests.PencilAppTest]/[method:c_testDrawingInSpace()]"
   }, {
     "name" : "host",
-    "value" : "fv-az1344-521"
+    "value" : "fv-az1319-8"
   }, {
     "name" : "thread",
-    "value" : "3649@fv-az1344-521.ForkJoinPool-1-worker-1(17)"
+    "value" : "3733@fv-az1319-8.ForkJoinPool-1-worker-1(17)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -254,7 +308,7 @@
     "value" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
   }, {
     "name" : "testMethod",
-    "value" : "e_testSigningOutOfApp"
+    "value" : "c_testDrawingInSpace"
   }, {
     "name" : "suite",
     "value" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
@@ -272,6 +326,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e4b0d18f2bbf03fd.json",
+  "source" : "9440fd3dc9cfb79e.json",
   "parameterValues" : [ ]
 }

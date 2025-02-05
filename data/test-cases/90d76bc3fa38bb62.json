@@ -1,15 +1,15 @@
 {
-  "uid" : "7af141d01ae6ecbe",
-  "name" : "6-test navigating to my pencila page",
-  "fullName" : "com.pencila.tests.regressionE2eTests.PencilAppTest.f_testNavigatingToMyPencilaPage",
-  "historyId" : "42e53fd72909e4f2fdc0e2f4a6601ea5",
+  "uid" : "90d76bc3fa38bb62",
+  "name" : "2-Validate content of spaces list page",
+  "fullName" : "com.pencila.tests.regressionE2eTests.PencilAppTest.b_validateContentOfSpacesListPage",
+  "historyId" : "ad58ec4e10942a13ad2f2cb1ed49c2ba",
   "time" : {
-    "start" : 1738790324893,
-    "stop" : 1738790326124,
-    "duration" : 1231
+    "start" : 1738791167425,
+    "stop" : 1738791168313,
+    "duration" : 888
   },
-  "description" : "6-test navigating to my pencila page",
-  "descriptionHtml" : "<p>6-test navigating to my pencila page</p>\n",
+  "description" : "2-Validate content of spaces list page",
+  "descriptionHtml" : "<p>2-Validate content of spaces list page</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -20,17 +20,17 @@
   "beforeStages" : [ {
     "name" : "initializeDriver",
     "time" : {
-      "start" : 1738790303284,
-      "stop" : 1738790305046,
-      "duration" : 1762
+      "start" : 1738791158416,
+      "stop" : 1738791160163,
+      "duration" : 1747
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Initialize chrome browser",
       "time" : {
-        "start" : 1738790303299,
-        "stop" : 1738790305045,
-        "duration" : 1746
+        "start" : 1738791158437,
+        "stop" : 1738791160162,
+        "duration" : 1725
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,17 +50,17 @@
   }, {
     "name" : "precondition_loginWithValidCredentials",
     "time" : {
-      "start" : 1738790305047,
-      "stop" : 1738790309541,
-      "duration" : 4494
+      "start" : 1738791160165,
+      "stop" : 1738791164240,
+      "duration" : 4075
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "navigate to home page",
       "time" : {
-        "start" : 1738790305054,
-        "stop" : 1738790307290,
-        "duration" : 2236
+        "start" : 1738791160175,
+        "stop" : 1738791162026,
+        "duration" : 1851
       },
       "status" : "passed",
       "steps" : [ ],
@@ -73,9 +73,9 @@
     }, {
       "name" : "click continue with email button",
       "time" : {
-        "start" : 1738790307290,
-        "stop" : 1738790308205,
-        "duration" : 915
+        "start" : 1738791162027,
+        "stop" : 1738791162861,
+        "duration" : 834
       },
       "status" : "passed",
       "steps" : [ ],
@@ -88,9 +88,9 @@
     }, {
       "name" : "Login to app",
       "time" : {
-        "start" : 1738790308206,
-        "stop" : 1738790309541,
-        "duration" : 1335
+        "start" : 1738791162862,
+        "stop" : 1738791164240,
+        "duration" : 1378
       },
       "status" : "passed",
       "steps" : [ ],
@@ -109,14 +109,14 @@
     "hasContent" : true
   } ],
   "testStage" : {
-    "description" : "6-test navigating to my pencila page",
+    "description" : "2-Validate content of spaces list page",
     "status" : "passed",
     "steps" : [ {
-      "name" : "is continue with email button displayed",
+      "name" : "Get number of spaces",
       "time" : {
-        "start" : 1738790325398,
-        "stop" : 1738790326022,
-        "duration" : 624
+        "start" : 1738791167426,
+        "stop" : 1738791167588,
+        "duration" : 162
       },
       "status" : "passed",
       "steps" : [ ],
@@ -127,11 +127,56 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "get current url",
+      "name" : "Get first space title",
       "time" : {
-        "start" : 1738790326023,
-        "stop" : 1738790326030,
-        "duration" : 7
+        "start" : 1738791167593,
+        "stop" : 1738791167741,
+        "duration" : 148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "is enter space button displayed",
+      "time" : {
+        "start" : 1738791167743,
+        "stop" : 1738791167889,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get side menu entries",
+      "time" : {
+        "start" : 1738791167892,
+        "stop" : 1738791168046,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "is profile picture displayed",
+      "time" : {
+        "start" : 1738791168053,
+        "stop" : 1738791168209,
+        "duration" : 156
       },
       "status" : "passed",
       "steps" : [ ],
@@ -144,7 +189,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
+    "stepsCount" : 5,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -152,18 +197,18 @@
   "afterStages" : [ {
     "name" : "takeScreenShot",
     "time" : {
-      "start" : 1738790326031,
-      "stop" : 1738790326123,
-      "duration" : 92
+      "start" : 1738791168209,
+      "stop" : 1738791168312,
+      "duration" : 103
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "b542b3edfa71868f",
-      "name" : "page view of 6-test navigating to my pencila page method",
-      "source" : "b542b3edfa71868f.png",
+      "uid" : "7089333d8230a9fd",
+      "name" : "page view of 2-Validate content of spaces list page method",
+      "source" : "7089333d8230a9fd.png",
       "type" : "image/png",
-      "size" : 38465
+      "size" : 46224
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -173,17 +218,17 @@
   }, {
     "name" : "quitDriver",
     "time" : {
-      "start" : 1738790326126,
-      "stop" : 1738790326245,
-      "duration" : 119
+      "start" : 1738791182998,
+      "stop" : 1738791183141,
+      "duration" : 143
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Quit browser",
       "time" : {
-        "start" : 1738790326126,
-        "stop" : 1738790326245,
-        "duration" : 119
+        "start" : 1738791182998,
+        "stop" : 1738791183141,
+        "duration" : 143
       },
       "status" : "passed",
       "steps" : [ ],
@@ -203,13 +248,13 @@
   } ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:com.pencila.tests.regressionE2eTests.PencilAppTest]/[method:f_testNavigatingToMyPencilaPage()]"
+    "value" : "[engine:junit-jupiter]/[class:com.pencila.tests.regressionE2eTests.PencilAppTest]/[method:b_validateContentOfSpacesListPage()]"
   }, {
     "name" : "host",
-    "value" : "fv-az1344-521"
+    "value" : "fv-az1319-8"
   }, {
     "name" : "thread",
-    "value" : "3649@fv-az1344-521.ForkJoinPool-1-worker-1(17)"
+    "value" : "3733@fv-az1319-8.ForkJoinPool-1-worker-1(17)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -224,7 +269,7 @@
     "value" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
   }, {
     "name" : "testMethod",
-    "value" : "f_testNavigatingToMyPencilaPage"
+    "value" : "b_validateContentOfSpacesListPage"
   }, {
     "name" : "suite",
     "value" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
@@ -242,6 +287,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7af141d01ae6ecbe.json",
+  "source" : "90d76bc3fa38bb62.json",
   "parameterValues" : [ ]
 }

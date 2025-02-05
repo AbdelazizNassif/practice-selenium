@@ -1,15 +1,15 @@
 {
-  "uid" : "3aedaa6f5d303c03",
-  "name" : "3-test drawing tools in the space",
-  "fullName" : "com.pencila.tests.regressionE2eTests.PencilAppTest.c_testDrawingInSpace",
-  "historyId" : "8014e1f78524b94592288deba5946d23",
+  "uid" : "864485c271b92482",
+  "name" : "4-test leaving space",
+  "fullName" : "com.pencila.tests.regressionE2eTests.PencilAppTest.d_testLeavingSpace",
+  "historyId" : "f6211885d7a04834ecd40fa611016ca8",
   "time" : {
-    "start" : 1738790313299,
-    "stop" : 1738790321816,
-    "duration" : 8517
+    "start" : 1738791177970,
+    "stop" : 1738791179167,
+    "duration" : 1197
   },
-  "description" : "3-test drawing tools in the space",
-  "descriptionHtml" : "<p>3-test drawing tools in the space</p>\n",
+  "description" : "4-test leaving space",
+  "descriptionHtml" : "<p>4-test leaving space</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -20,17 +20,17 @@
   "beforeStages" : [ {
     "name" : "initializeDriver",
     "time" : {
-      "start" : 1738790303284,
-      "stop" : 1738790305046,
-      "duration" : 1762
+      "start" : 1738791158416,
+      "stop" : 1738791160163,
+      "duration" : 1747
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Initialize chrome browser",
       "time" : {
-        "start" : 1738790303299,
-        "stop" : 1738790305045,
-        "duration" : 1746
+        "start" : 1738791158437,
+        "stop" : 1738791160162,
+        "duration" : 1725
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,17 +50,17 @@
   }, {
     "name" : "precondition_loginWithValidCredentials",
     "time" : {
-      "start" : 1738790305047,
-      "stop" : 1738790309541,
-      "duration" : 4494
+      "start" : 1738791160165,
+      "stop" : 1738791164240,
+      "duration" : 4075
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "navigate to home page",
       "time" : {
-        "start" : 1738790305054,
-        "stop" : 1738790307290,
-        "duration" : 2236
+        "start" : 1738791160175,
+        "stop" : 1738791162026,
+        "duration" : 1851
       },
       "status" : "passed",
       "steps" : [ ],
@@ -73,9 +73,9 @@
     }, {
       "name" : "click continue with email button",
       "time" : {
-        "start" : 1738790307290,
-        "stop" : 1738790308205,
-        "duration" : 915
+        "start" : 1738791162027,
+        "stop" : 1738791162861,
+        "duration" : 834
       },
       "status" : "passed",
       "steps" : [ ],
@@ -88,9 +88,9 @@
     }, {
       "name" : "Login to app",
       "time" : {
-        "start" : 1738790308206,
-        "stop" : 1738790309541,
-        "duration" : 1335
+        "start" : 1738791162862,
+        "stop" : 1738791164240,
+        "duration" : 1378
       },
       "status" : "passed",
       "steps" : [ ],
@@ -109,14 +109,14 @@
     "hasContent" : true
   } ],
   "testStage" : {
-    "description" : "3-test drawing tools in the space",
+    "description" : "4-test leaving space",
     "status" : "passed",
     "steps" : [ {
-      "name" : "click enter space button",
+      "name" : "leave space",
       "time" : {
-        "start" : 1738790313299,
-        "stop" : 1738790314173,
-        "duration" : 874
+        "start" : 1738791177973,
+        "stop" : 1738791178415,
+        "duration" : 442
       },
       "status" : "passed",
       "steps" : [ ],
@@ -127,11 +127,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Click shapes tool",
+      "name" : "is enter space button displayed",
       "time" : {
-        "start" : 1738790319173,
-        "stop" : 1738790319349,
-        "duration" : 176
+        "start" : 1738791178415,
+        "stop" : 1738791179059,
+        "duration" : 644
       },
       "status" : "passed",
       "steps" : [ ],
@@ -141,94 +141,10 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : false
-    }, {
-      "name" : "Draw line",
-      "time" : {
-        "start" : 1738790319350,
-        "stop" : 1738790320078,
-        "duration" : 728
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "verticalLength",
-        "value" : "50"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "Click select tool",
-      "time" : {
-        "start" : 1738790320079,
-        "stop" : 1738790320268,
-        "duration" : 189
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "move line",
-      "time" : {
-        "start" : 1738790320269,
-        "stop" : 1738790320799,
-        "duration" : 530
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "horizontalOffset",
-        "value" : "20"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "select text tool",
-      "time" : {
-        "start" : 1738790320799,
-        "stop" : 1738790320976,
-        "duration" : 177
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "use text tool",
-      "time" : {
-        "start" : 1738790320976,
-        "stop" : 1738790321690,
-        "duration" : 714
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "text",
-        "value" : "This is test"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 7,
+    "stepsCount" : 2,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -236,18 +152,18 @@
   "afterStages" : [ {
     "name" : "takeScreenShot",
     "time" : {
-      "start" : 1738790321691,
-      "stop" : 1738790321816,
-      "duration" : 125
+      "start" : 1738791179059,
+      "stop" : 1738791179167,
+      "duration" : 108
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "c39cbc2e1bf56e2c",
-      "name" : "page view of 3-test drawing tools in the space method",
-      "source" : "c39cbc2e1bf56e2c.png",
+      "uid" : "e94d377c6f2ccc0",
+      "name" : "page view of 4-test leaving space method",
+      "source" : "e94d377c6f2ccc0.png",
       "type" : "image/png",
-      "size" : 53189
+      "size" : 46573
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -257,17 +173,17 @@
   }, {
     "name" : "quitDriver",
     "time" : {
-      "start" : 1738790326126,
-      "stop" : 1738790326245,
-      "duration" : 119
+      "start" : 1738791182998,
+      "stop" : 1738791183141,
+      "duration" : 143
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Quit browser",
       "time" : {
-        "start" : 1738790326126,
-        "stop" : 1738790326245,
-        "duration" : 119
+        "start" : 1738791182998,
+        "stop" : 1738791183141,
+        "duration" : 143
       },
       "status" : "passed",
       "steps" : [ ],
@@ -287,13 +203,13 @@
   } ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:com.pencila.tests.regressionE2eTests.PencilAppTest]/[method:c_testDrawingInSpace()]"
+    "value" : "[engine:junit-jupiter]/[class:com.pencila.tests.regressionE2eTests.PencilAppTest]/[method:d_testLeavingSpace()]"
   }, {
     "name" : "host",
-    "value" : "fv-az1344-521"
+    "value" : "fv-az1319-8"
   }, {
     "name" : "thread",
-    "value" : "3649@fv-az1344-521.ForkJoinPool-1-worker-1(17)"
+    "value" : "3733@fv-az1319-8.ForkJoinPool-1-worker-1(17)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -308,7 +224,7 @@
     "value" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
   }, {
     "name" : "testMethod",
-    "value" : "c_testDrawingInSpace"
+    "value" : "d_testLeavingSpace"
   }, {
     "name" : "suite",
     "value" : "com.pencila.tests.regressionE2eTests.PencilAppTest"
@@ -326,6 +242,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3aedaa6f5d303c03.json",
+  "source" : "864485c271b92482.json",
   "parameterValues" : [ ]
 }
