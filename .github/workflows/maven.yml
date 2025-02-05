@@ -50,14 +50,9 @@ jobs:
       - name: Run Maven tests
         run: mvn clean -DargLine="-Xmx6g" -D"junit.jupiter.execution.parallel.enabled=true" -D"junit.jupiter.execution.parallel.config.strategy=dynamic" -Dtest="com/pencila/tests/regressionE2eTests/*/**" test
 
-      - name: Allure report
-      # You may pin to the exact commit or the version.
-      # uses: afiore/action-allure-report@e43ebd6f4f4c74b07b1eb02f042902bbe6786a19
-        uses: afiore/action-allure-report@v0.1.0
-        with:
-          results-dir: ./allure-results
-          # Allure report target dir
-          report-dir: ./allure-report
+      - name: Generate Allure report
+        run: |
+          allure generate allure-results --clean -o allure-report
 
       - name: Upload Allure report as artifact
         uses: actions/upload-artifact@v4
